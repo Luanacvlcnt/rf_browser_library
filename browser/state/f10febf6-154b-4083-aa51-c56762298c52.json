@@ -1,0 +1,18 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://front.serverest.dev",
+      "localStorage": [
+        {
+          "name": "serverest/userToken",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNhYnJlcmFwYXVsQGV4YW1wbGUub3JnIiwicGFzc3dvcmQiOiIxMjM0NTYiLCJpYXQiOjE3NDMxNzMxMDksImV4cCI6MTc0MzE3MzcwOX0.LbSHzdhXJ7MuhZq8gD7edrrxH13BVPfrxGfqJcWT1aE"
+        },
+        {
+          "name": "serverest/userEmail",
+          "value": "Luana Cavalcante"
+        }
+      ]
+    }
+  ]
+}

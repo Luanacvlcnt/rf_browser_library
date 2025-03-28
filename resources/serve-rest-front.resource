@@ -65,16 +65,16 @@ Cadastrar novo usuário para logar
     Cadastrar novo usuário
 
 Cadastrar um novo produto
+
     Click    .nav-item:nth-child(4) > .btn
-    Fill Text    css=input[data-testid='nome']    luluteste
+    Fill Text    css=input[data-testid='nome']    doguinhosteste
     Fill Text    css=input[data-testid='preco']    5
     Fill Text    css=textarea[data-testid='descricao']    Teste 
-    Fill Text    css=input[data-testid='quantity']    1
-    ${promise}=    Promise To Upload File    C:/CursoUdemy/ASME-case-study-iStock-1158174820.webp
+    Fill Text    css=input[data-testid='quantity']    2
     Click    css=button[data-testid='cadastarProdutos'] 
 
 Conferir que o produto aparece na listagem     
-    ${elemento}    Get Table Cell Element    css=table    "Nome"    "luluteste"
+    ${elemento}    Get Table Cell Element    css=table    "Nome"    "doguinhosteste"
     Take Screenshot    fullPage=${true}
 
 Criar usuário via API  
